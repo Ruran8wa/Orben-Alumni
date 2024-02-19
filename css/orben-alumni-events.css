@@ -1,3 +1,49 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"):
+  root {
   --primary-color: #0b4d42;
+  --footer-bg: #464646;
+  --body-color: #f4f4f2;
+  --button-hover-state: #14685a;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "libre baskerville", "open sans", sans-serif;
+  background-color: #f4f4f2;
+}
+.container {
+  width: 100%;
+}
+.top-bar {
+  background: #0b4d42;
+  width: 100%;
+  height: 30px;
+}
+.top-bar a {
+  color: #f4f4f2;
+  text-decoration: none;
+  float: right;
+  padding-left: 16px;
+  padding-right: 24px;
+  font-size: 16px;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  display: flex;
+}
+.navbar .logo {
+  color: #000;
+  font-family: "open sans";
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 20px;
+}
+.nav-links a{
+  align-content: center;
+  justify-content: center;
 }
