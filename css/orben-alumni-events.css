@@ -13,6 +13,7 @@ root {
 body {
   font-family: "libre baskerville", "open sans", sans-serif;
   background-color: #f4f4f2;
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
@@ -89,11 +90,11 @@ body {
 .overlay {
   font-family: "libre baskerville";
   position: absolute;
-  top: 18%;
+  top: 17.5%;
   left: 0;
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
-  height: 298.5px;
+  height: 299px;
 }
 .overlay h1 {
   position: relative;
@@ -136,4 +137,88 @@ body {
   font-size: 15px;
   font-weight: light;
   cursor: pointer;
+}
+.events-list {
+  display: flex;
+  gap: 5%;
+  width: 100%;
+}
+.menu {
+  font-family: "open sans";
+  margin-left: 8%;
+  margin-top: 4%;
+  padding: 20px;
+  width: 50%;
+  background-color: #fff;
+  height: 100px;
+  box-shadow: rgba(3, 3, 3, 0.05) 0px 1px 2px 0px;
+}
+.all-events h5 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.menu-para {
+  padding-top: 5px;
+}
+.menu-anchors {
+  text-decoration: none;
+  color: #14685a;
+  font-size: 14px;
+  font-weight: 600;
+}
+.events {
+  margin-top: 4%;
+}
+.events p {
+  width: 93%;
+  font-family: "open sans";
+  font-size: 14px;
+}
+.events-p > a {
+  color: #14685a;
+}
+
+.upcoming-events {
+  margin-top: 20px;
+}
+.upcoming-events h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.filter {
+  margin-top: 28px;
+  display: flex;
+  gap: 3%;
+}
+.filter-name label {
+  font-family: "open sans";
+  font-size: 14px;
+  font-weight: 700;
+}
+.filter-type input {
+  height: 25px;
+  width: 250px;
+  margin-top: 5px;
+}
+.filter-type select {
+  width: 200px;
+  height: 27px;
+  margin-top: 5px;
+  background-color: #fff;
+  border-color: #dee2e6;
+  border-radius: 4px;
+  font-family: "open sans";
+  font-size: 16px;
+}
+.filter button {
+  margin-top: 22px;
+  background-color: #14685a;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 6px;
+  font-family: "open sans";
+  font-size: 16px;
 }

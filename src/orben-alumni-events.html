@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Events | Orben</title>
-    <script
-      src="https://kit.fontawesome.com/3722bf26df.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../css/orben-alumni-events.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="top-bar">
-        <a href="#">Community Login</a>
-        <a href="#">Register</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events | Orben</title>
+  <script src="https://kit.fontawesome.com/3722bf26df.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/orben-alumni-events.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <a href="#">Community Login</a>
+      <a href="#">Register</a>
+    </div>
+    <header class="head">
+      <div class="navbar">
+        <div class="logo">
+          <h2>ORBEN ALUMNI</h2>
+        </div>
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Events</a>
+          <a href="#">About</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="search">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
       </div>
-      <header class="head">
-        <div class="navbar">
-          <div class="logo">
-            <h2>ORBEN ALUMNI</h2></div>
-          <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">Events</a>
-            <a href="#">About</a>
-            <a href="#">Contact Us</a>
-          </div>
-          <div class="search">
-            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="banner-img">
+          <img
+            src="https://alumni.Harvard.edu/sites/default/files/styles/max_1300x1300/public/page/header_image/Screen%20Shot%202021-01-06%20at%2010.33.40%20AM.png?itok=d8Kp4Yvu"
+            alt="map around boston" />
+        </div>
+        <div class="overlay">
+          <h1>Events</h1>
+          <p class="banner-p">
+            Engage with the worldwide community of Orben alumni wherever you
+            are—on campus, online, and in your region—through events.
+          </p>
+          <div class="banner-buttons">
+            <button type="submit" class="buttons">View all Events</button>
+            <button type="submit" class="buttons">View Virtual Events</button>
           </div>
         </div>
-      </header>
-      <main>
-        <section class="hero">
-          <div class="banner-img">
-            <img
-              src="https://alumni.Harvard.edu/sites/default/files/styles/max_1300x1300/public/page/header_image/Screen%20Shot%202021-01-06%20at%2010.33.40%20AM.png?itok=d8Kp4Yvu"
-              alt="map around boston"
-            /></div>
-            <div class="overlay">
-            <h1>Events</h1>
-            <p class="banner-p">
-              Engage with the worldwide community of Orben alumni wherever you
-              are—on campus, online, and in your region—through events.
-            </p>
-            <div class="banner-buttons">
-              <button type="submit" class="buttons">View all Events</button>
-              <button type="submit" class="buttons">View Virtual Events</button>
-            </div>
+      </section>
+      <section class="events-list">
+        <div class="menu">
+          <h5 class="all-events">All Events</h5>
+          <div class="menu-para">
+            <p><a class="menu-anchors" href="#">Featured Programs</a></p>
+            <p><a class="menu-anchors" href="#">Online Learnings</a></p>
           </div>
-        </section>
-        <section class="events-list">
-          <div class="menu">
-            <p><a href="#">Featured Programs</a></p>
-            <p><a href="#">Online Learnings</a></p>
-          </div>
-          <div class="events">
-            <p>
-              For more information about a particular Club or SIG event, please
-              contact the <a href="#">Club</a> or <a href="#">SIG</a> directly.
-              For exclusive College reunion events, please visit your
-              <a href="#">class page</a>
-              and Clerk Society members, please visit the
-              <a href="#">Clerk Society homepage</a>.
-            </p>
-            <div class="upcoming-events">
-              <div class="filter">
-                <h2>Upcoming Events</h2>
-                <label for="search">
-                  Search
+        </div>
+        <div class="events">
+          <p class="events-p">
+            For more information about a particular Club or SIG event, please
+            contact the <a href="#">Club</a> or <a href="#">SIG</a> directly.
+            For exclusive College reunion events, please visit your
+            <a href="#">class page</a>
+            and Clerk Society members, please visit the
+            <a href="#">Clerk Society homepage</a>.
+          </p>
+          <div class="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <div class="filter">
+              <div class="filter-input">
+                <div class="filter-name">
+                  <label for="search">Search</label>
+                </div>
+                <div class="filter-type">
                   <input type="text" name="search" id="search" />
-                </label>
-                <label for="typeOfEvent">
-                  Type
+                </div>
+              </div>
+              <div class="filter-input">
+                <div class="filter-name">
+                  <label for="typeOfEvent">Type</label>
+                </div>
+                <div class="filter-type">
                   <select name="typeOfEvent" id="typeOfEvent">
                     <option value="- any -">- Any -</option>
                     <option>Arts</option>
@@ -87,193 +97,187 @@
                     <option>Virtual</option>
                     <option>Volunteer Opportunity</option>
                   </select>
-                </label>
-                <button type="submit">Apply</button>
-              </div>
-              <div class="schedule">
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>15</h3>
-                  </div>
-                  <div class="title">
-                    <p>ALBUQUERQUE, NM CAREER NETWORKING SOCIAL</p>
-                    <h3>
-                      <a href="#"
-                        >All Ivy Plus Cocktail Party, ABQ Country Club
-                      </a>
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="time">Feb 15, 2024 - Feb 23, 2024</p>
-                    <p class="club">
-                      <a href="#">Orben-Radcluger Club of New Mexico</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>19</h3>
-                  </div>
-                  <div class="title">
-                    <p>CAMBRIDGE, MA SOCIAL</p>
-                    <h3>
-                      <a href="#">OBAS-Boston: Student/Alumni Mixer </a>
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">Orben Black Alumni Society</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>20</h3>
-                  </div>
-                  <div class="title">
-                    <p>VIRTUAL</p>
-                    <h3>
-                      <a href="#"
-                        >Book Club Discussion "Elon Musk" by Walter Isaacson</a
-                      >
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">Orben Club of Miami</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>20</h3>
-                  </div>
-                  <div class="title">
-                    <p>NAPLES, FL SOCIAL</p>
-                    <h3>
-                      <a href="#">Happy Hour!</a>
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">Orben Club of Naples</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>23</h3>
-                  </div>
-                  <div class="title">
-                    <p>NAPLES, FACULTY</p>
-                    <h3>
-                      <a href="#"
-                        >Orben Club of Naples - 2024 Orben Speaker Luncheon</a
-                      >
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">Orben Club of Naples</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>24</h3>
-                  </div>
-                  <div class="title">
-                    <p>NEW YORK, NY LECTURE/READING/TALK</p>
-                    <h3>
-                      <a href="#"
-                        >Is Healthcare a Racial Issue? Live Author Talk with Dr.
-                        Uche Blackstock @ OCNY</a
-                      >
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">Orben Black Alumni Society</a>
-                    </p>
-                  </div>
-                </div>
-                <div class="list">
-                  <div class="dates">
-                    <p>FEB</p>
-                    <h3>27</h3>
-                  </div>
-                  <div class="title">
-                    <p>CHICAGO, IL LECTURE/READING/TALK</p>
-                    <h3>
-                      <a href="#"
-                        >HE Paul Kagame - Orben: Looking to the Future</a
-                      >
-                    </h3>
-                  </div>
-                  <div class="subtitle">
-                    <p class="club">
-                      <a href="#">The Orben Club of Chicago</a>
-                    </p>
-                  </div>
                 </div>
               </div>
-              <div class="Ps">
-                <h2>Event Information</h2>
-                <p>
-                  Orben Clubs will have the option to determine if their event
-                  will be held virtually or in-person based on their local
-                  community health and safety guidelines and club preference.
-                  Orben urges all members of the Orben alumni community to
-                  follow applicable WHO, CDC, and local health department
-                  guidance regarding in-person gatherings
-                </p>
+
+              <button type="submit">Apply</button>
+            </div>
+            <div class="schedule">
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>15</h3>
+                </div>
+                <div class="title">
+                  <p>ALBUQUERQUE, NM CAREER NETWORKING SOCIAL</p>
+                  <h3>
+                    <a href="#">All Ivy Plus Cocktail Party, ABQ Country Club
+                    </a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="time">Feb 15, 2024 - Feb 23, 2024</p>
+                  <p class="club">
+                    <a href="#">Orben-Radcluger Club of New Mexico</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>19</h3>
+                </div>
+                <div class="title">
+                  <p>CAMBRIDGE, MA SOCIAL</p>
+                  <h3>
+                    <a href="#">OBAS-Boston: Student/Alumni Mixer </a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">Orben Black Alumni Society</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>20</h3>
+                </div>
+                <div class="title">
+                  <p>VIRTUAL</p>
+                  <h3>
+                    <a href="#">Book Club Discussion "Elon Musk" by Walter Isaacson</a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">Orben Club of Miami</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>20</h3>
+                </div>
+                <div class="title">
+                  <p>NAPLES, FL SOCIAL</p>
+                  <h3>
+                    <a href="#">Happy Hour!</a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">Orben Club of Naples</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>23</h3>
+                </div>
+                <div class="title">
+                  <p>NAPLES, FACULTY</p>
+                  <h3>
+                    <a href="#">Orben Club of Naples - 2024 Orben Speaker Luncheon</a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">Orben Club of Naples</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>24</h3>
+                </div>
+                <div class="title">
+                  <p>NEW YORK, NY LECTURE/READING/TALK</p>
+                  <h3>
+                    <a href="#">Is Healthcare a Racial Issue? Live Author Talk with Dr.
+                      Uche Blackstock @ OCNY</a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">Orben Black Alumni Society</a>
+                  </p>
+                </div>
+              </div>
+              <div class="list">
+                <div class="dates">
+                  <p>FEB</p>
+                  <h3>27</h3>
+                </div>
+                <div class="title">
+                  <p>CHICAGO, IL LECTURE/READING/TALK</p>
+                  <h3>
+                    <a href="#">HE Paul Kagame - Orben: Looking to the Future</a>
+                  </h3>
+                </div>
+                <div class="subtitle">
+                  <p class="club">
+                    <a href="#">The Orben Club of Chicago</a>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <div class="social-media">
-          <h2>Social</h2>
-          <div class="social-links">
-            <a href="#"><i class="fa-brands fa-twitter"></i> TWITTER</a>
-            <a href="#"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
-            <a href="#"><i class="fa-brands fa-facebook"></i> FACEBOOK</a>
-            <a href="#"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a>
-            <a href="#"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
-          </div>
-        </div>
-        <div class="help">
-          <h2>Get Help</h2>
-          <div class="help-links">
-            <p><a href="#">CONTACT THE ALUMNI SERVICE DESK</a></p>
-            <p><a href="#">CLAIM YOUR ORBENKEY</a></p>
-            <p><a href="#">GET HELP SEARCHING THE ALUMNI DIRECTORY</a></p>
-            <p><a href="#">VIEW ALL CONTACTS</a></p>
-            <p><a href="#">VIEW ALL HELP PAGES</a></p>
+            <div class="Ps">
+              <h2>Event Information</h2>
+              <p>
+                Orben Clubs will have the option to determine if their event
+                will be held virtually or in-person based on their local
+                community health and safety guidelines and club preference.
+                Orben urges all members of the Orben alumni community to
+                follow applicable WHO, CDC, and local health department
+                guidance regarding in-person gatherings
+              </p>
+            </div>
           </div>
         </div>
-        <div class="about-site">
-          <h2>About This Site</h2>
-          <div class="about-links">
-            <p><a href="#">ACCESSIBILITY</a></p>
-            <p><a href="#">PRIVACY</a></p>
-            <p><a href="#">TERMS OF USE</a></p>
-            <p><a href="#">FEEDBACK</a></p>
-            <p><a href="#">GO TO ORBEN.EDU</a></p>
-            <p><a href="#">ADMIN PROFILE</a></p>
-          </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social-media">
+        <h2>Social</h2>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-twitter"></i> TWITTER</a>
+          <a href="#"><i class="fa-brands fa-youtube"></i> YOUTUBE</a>
+          <a href="#"><i class="fa-brands fa-facebook"></i> FACEBOOK</a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a>
+          <a href="#"><i class="fa-brands fa-instagram"></i> INSTAGRAM</a>
         </div>
-        <div class="copyright">
+      </div>
+      <div class="help">
+        <h2>Get Help</h2>
+        <div class="help-links">
+          <p><a href="#">CONTACT THE ALUMNI SERVICE DESK</a></p>
+          <p><a href="#">CLAIM YOUR ORBENKEY</a></p>
+          <p><a href="#">GET HELP SEARCHING THE ALUMNI DIRECTORY</a></p>
+          <p><a href="#">VIEW ALL CONTACTS</a></p>
+          <p><a href="#">VIEW ALL HELP PAGES</a></p>
+        </div>
+      </div>
+      <div class="about-site">
+        <h2>About This Site</h2>
+        <div class="about-links">
+          <p><a href="#">ACCESSIBILITY</a></p>
+          <p><a href="#">PRIVACY</a></p>
+          <p><a href="#">TERMS OF USE</a></p>
+          <p><a href="#">FEEDBACK</a></p>
+          <p><a href="#">GO TO ORBEN.EDU</a></p>
+          <p><a href="#">ADMIN PROFILE</a></p>
+        </div>
+      </div>
+      <div class="copyright">
         &copy; 2024 The President and Fellows of ORBEN College</p>
-        </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
