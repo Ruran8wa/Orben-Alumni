@@ -9,6 +9,7 @@ root {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "libre baskerville", "open sans", sans-serif;
@@ -40,6 +41,13 @@ body {
   background: #fff;
   display: flex;
   padding: 16px 24px;
+  overflow: hidden;
+  z-index: 999;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .logo h2 {
   color: #272727;
@@ -296,12 +304,96 @@ body {
   padding-bottom: 100px;
 }
 .ps {
-  width: 100%;
+  max-width: 78rem;
   display: flex;
-  gap: 8%;
+  max-width: 76rem;
+  gap: 5%;
   width: 100%;
 }
 .ps > h2 {
-  width: 100%;
+  width: 49%;
   padding-left: 100px;
+  padding-bottom: 8rem;
+  font-size: 28px;
+  color: #272727;
+}
+.ps > p {
+  width: 80%;
+  font-family: "open sans";
+  font-size: 14px;
+}
+.ps > p > span {
+  font-style: italic;
+  font-weight: 430;
+}
+.footer {
+  background-color: #464646;
+  font-family: "open sans";
+  padding: 80px 120px 20px;
+  width: 100%;
+}
+.tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5%;
+  width: 100%;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.social-media h2 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.social-links a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ccc;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.help h2 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.help-links p {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ccc;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.help-links p > a {
+  text-decoration: none;
+  color: #ccc;
+}
+.about-site h2 {
+  color: #fff;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.about-links p {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ccc;
+  padding-bottom: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+}
+.about-links p > a {
+  text-decoration: none;
+  color: #ccc;
+}
+.copyright {
+  margin-top: 150px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
 }
