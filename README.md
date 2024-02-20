@@ -14,12 +14,12 @@ Stay in the loop with exciting happenings through our Events page. Events are ca
 Meet the brains behind Orben Alumni Hub on our About page. Here, we introduce our talented team members and showcase their technical prowess. Get to know us better through our social links.
 
 ### Contact Us
-Have questions or want to reserve your slot for an event? Our Contact Us page simplifies the process. Fill out the form, and we'll be sure to respond promptly.
+Have questions or want to reserve your slot for an event? Our Contact Us page simplifies the process. Feel free to reach out to us with our social links, and we'll be sure to respond promptly.
 
 ## Events Preview
 ### Upcoming Events
-- **February 15, 2024**: All Ivy Plus Cocktail Party, ABQ Country Club hosted by Orben-Radcluger Club of Kinshasa
-- **February 19, 2024**: OBAS-Addis ababa: Student/Alumni Mixer hosted by Orben Black Alumni Society
+- **February 15, 2024**: All-Ivy Plus Cocktail Party, ABQ Country Club hosted by Orben-Radcluger Club of Kinshasa
+- **February 19, 2024**: OBAS-Addis Ababa: Student/Alumni Mixer hosted by Orben Black Alumni Society
 - **February 20, 2024**: Book Club Discussion "Elon Musk" by Walter Isaacson hosted by Orben Club of Cairo (Virtual Event)
 - **February 20, 2024**: Happy Hour! hosted by Orben Club of SA
 - **February 23, 2024**: 2024 Orben Speaker Luncheon hosted by Orben Club of Accra
